@@ -1,0 +1,2 @@
+INSERT INTO "master_brand" ("create_time", "update_time", "create_by_id", "update_by_id", "system_create_time", "system_update_time", "active", "id", "name") VALUES ('2014-4-9 16:59:56.558', '2014-4-9 16:59:56.558', 1, 1, '2014-4-9 16:59:56.558', '2014-4-9 16:59:56.558', 0, 1, 'AEO');
+INSERT INTO "master_brand" ("create_time", "update_time", "create_by_id", "update_by_id", "system_create_time", "system_update_time", "active", "id", "name") VALUES ('2014-4-9 16:59:56.558', '2014-4-9 16:59:56.558', 1, 1, '2014-4-9 16:59:56.558', '2014-4-9 16:59:56.558', 0, 2, 'Aerie');

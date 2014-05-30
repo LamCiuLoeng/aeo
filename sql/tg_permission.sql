@@ -1,0 +1,14 @@
+begin;
+INSERT INTO "tg_permission" ("permission_id", "permission_name", "display_name", "order") VALUES (1, 'MAIN', 'Main:', 1);
+INSERT INTO "tg_permission" ("permission_id", "permission_name", "display_name", "order") VALUES (2, 'MAIN_ORDERING_PLACEORDER', 'Service bureau ordering', 2);
+INSERT INTO "tg_permission" ("permission_id", "permission_name", "display_name", "order") VALUES (3, 'MAIN_ORDERING_CHECKING', 'Check order screen', 3);
+INSERT INTO "tg_permission" ("permission_id", "permission_name", "display_name", "order") VALUES (4, 'MAIN_ORDERING_CHECKING_ALL', 'Check all orders', 4);
+INSERT INTO "tg_permission" ("permission_id", "permission_name", "display_name", "order") VALUES (5, 'MAIN_ORDERING_EXPORT', 'Export search result', 5);
+INSERT INTO "tg_permission" ("permission_id", "permission_name", "display_name", "order") VALUES (6, 'MAIN_ORDERING_ASSIGN_SO', 'Assign SO', 6);
+INSERT INTO "tg_permission" ("permission_id", "permission_name", "display_name", "order") VALUES (7, 'MAIN_ORDERING_EDIT_STATUS', 'Edit status', 7);
+INSERT INTO "tg_permission" ("permission_id", "permission_name", "display_name", "order") VALUES (8, 'MANAGE_SHIP_INFO', 'Manage Ship Info:', 8);
+INSERT INTO "tg_permission" ("permission_id", "permission_name", "display_name", "order") VALUES (25, 'MASTER', 'Master:', 9);
+INSERT INTO "tg_permission" ("permission_id", "permission_name", "display_name", "order") VALUES (20, 'ACCESS', 'Access:', 10);
+INSERT INTO "tg_permission" ("permission_id", "permission_name", "display_name", "order") VALUES (21, 'ACCESS_USER', 'User', 11);
+INSERT INTO "tg_permission" ("permission_id", "permission_name", "display_name", "order") VALUES (22, 'ACCESS_ROLE', 'Group', 12);
+commit;
